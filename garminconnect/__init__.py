@@ -215,7 +215,7 @@ class Garmin:
             pool_connections=20,
             pool_maxsize=20,
         )
-
+        self.garth.timeout = 40
         self.display_name = None
         self.full_name = None
         self.unit_system = None
